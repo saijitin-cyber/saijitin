@@ -1,2 +1,20 @@
-1.1
 
+#Install ubuntu in windows
+
+#Create a Script File
+
+# Enable WSL and Virtual Machine Platform
+wsl --install -d Ubuntu
+
+#Open Ubuntu (WSL)
+   ##Click Start, search for Ubuntu, and open it.
+
+### Run the Commands Inside Ubuntu (WSL) ###
+
+sudo apt update && sudo apt upgrade -y
+
+## Proceed with Installing Ansible ##
+
+ sudo apt install ansible -y
+
+# Restart the computer to apply changes #
